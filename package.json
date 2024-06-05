@@ -1,0 +1,18 @@
+{
+    "name": "myproject",
+    "version": "1.0.0",
+    "description": "a shopping website",
+    "main": "index.js",
+    "repository": "",
+    "author": "Mohamed Lahmam",
+    "License": "MIT",
+    "dependencies": {
+        "concurrently": "^8.2.2",
+        "react-router-dom": "^6.22.1"
+    },
+    "scripts": {
+        "install:app": "concurrently \"cd backend && composer install\"",
+        "start": "concurrently \"cd backend && php artisan serve\""
+    },
+    "license": "MIT"
+}
